@@ -1,15 +1,37 @@
 # Laravel - Fallback e Formulário
 
-- Tela de contato
+### Tela de home
 
-- Exemplo de fallback
+![alt](prints/pagina_home.png)
 
-- Código do fallback
+### Exemplo de fallback
 
-- var_dump (antes)
+![alt](prints/exemplo_fallback_1.png)
 
-- var_dump (código)
+### Resultado do fallback
 
-- formulário (código)
+![alt](prints/exemplo_fallback_2.png)
 
-- var_dump (depois)
+### Código do fallback
+
+![alt](prints/fallback_code.png)
+
+### Onde fica o formulário
+
+![alt](prints/formulario.png)
+
+### var_dump (antes)
+
+![alt](prints/var_dump_antes.png)
+
+### var_dump (código)
+
+![alt](prints/var_dump_code.png)
+
+### Formulário de contato (código)
+
+![alt](prints/contato_code.png)
+
+### var_dump (depois)
+
+![alt](prints/var_dump_depois.png)

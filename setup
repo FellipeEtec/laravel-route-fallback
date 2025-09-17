@@ -5,10 +5,18 @@
 
 if ! command -v php &> /dev/null; then
     echo Installing PHP and Composer
+
+    # Laravel Approach (don't work properly)
     # /bin/bash -c "$(curl -fsSL https://php.new/install/linux/8.4)"
+
+    # Pacman Approach (Arch Linux)
+    # sudo pacman -S php composer
 fi
 
-read -rsp $'Check if the PHP ini file is with the proper fields uncommented.\nPress enter to continue...\n'
+read -rsp $'Check if the PHP ini file is with the proper fields.\nPress enter to continue...\n'
+
+# echo Updating composer
+composer update
 
 # echo Installing Laravel
 # composer global require laravel/installer
@@ -33,6 +41,6 @@ composer run dev
 
 # Installing Breeze
 
-composer require laravel/breeze --dev
+# composer require laravel/breeze --dev
 
-php artisan breeze:install
+# php artisan breeze:install
