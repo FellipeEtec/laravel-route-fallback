@@ -1,5 +1,14 @@
 # Laravel - Fallback e Formulário
 
+## Requisitos
+
+- PHP instalado
+- Composer instalado
+- MySQL instalado e rodando
+- Um editor de código VS Code
+
+## Capturas de Tela
+
 ### Tela de home
 
 ![alt](prints/pagina_home.png)
